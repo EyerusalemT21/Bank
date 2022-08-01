@@ -112,7 +112,7 @@ function deposit(){
         var balance = accounts[selectedAccount-1].getDeposit();
         accounts[selectedAccount-1].setDeposit(parseFloat(depositAmount) + parseFloat(balance));
         storeLocally();
-        location.href = "account.html";
+        location.href = "index.html";
     }else{
         alert('Please enter deposit amount' )
     }
@@ -132,7 +132,7 @@ function debit(){
         }else{
             accounts[selectedAccount-1].setDeposit(parseFloat(balance)-parseFloat(debitAmount));
             storeLocally();
-            location.href = "account.html";
+            location.href = "index.html";
         }
     }else{
         alert('Please enter debit amount' )
