@@ -81,10 +81,10 @@ function display(){
 
 
 function goToDeposit(){
-    window.location.href="deposit.html";
+    location.href="deposit.html";
 }
 function goToDebit(){
-    window.location.href = "debit.html";
+    location.href = "debit.html";
 }
 
 function loadAccounts(){
